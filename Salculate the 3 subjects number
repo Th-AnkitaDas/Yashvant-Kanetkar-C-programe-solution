@@ -1,0 +1,20 @@
+/*calculate the 3 subjects number*/
+
+#include <stdio.h>
+
+int main()
+{
+    int m1, m2, m3,total;
+    float  per;
+
+    printf("Enter the subject marks: ");
+    scanf("%d %d %d", &m1, &m2, &m3);
+
+    total = m1 + m2 + m3;
+    per = total / 3.0;
+
+    printf("Total: %d\n", total);
+    printf("Percentage: %f\n", per);
+
+    return 0;
+}
